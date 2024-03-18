@@ -26,14 +26,14 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
    step 1: Using GithubCreateNewBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-   step 2: using GithubCreateNewFile tool, Create a new file app/signup/page.tsx, the file should have a next js component with tailwind css used for a signup page. 
+   step 2: Using GithubCreateNewFile tool, Create a new file app/signup/page.tsx, the file should have a next js component with tailwind css used for a signup page. 
       It should have a image on left side and form on right side.
       The component should provide a signup form with necessary fields like email, username, password and sign up button.
       There should be a image of computer in left side of form. Use the image from /static/images/google.png with 500 widht and height.
       The form should be beautifully styled with tailwind css classes, background should be white and not distinctive.
       At the top of signup from , it should have a company Name called ENLYT. The component should be dark mode compatible.
 
-   step 3: using GithubCreateNewFile tool, Create another new file app/login/page.tsx, the file should have a next js component with tailwind css used for a login page. 
+   step 3: Using GithubCreateNewFile tool, Create another new file app/login/page.tsx, the file should have a next js component with tailwind css used for a login page. 
       It should have a image on left side and form on right side.
       The component should provide a login form with forget password option and login button.
       The component should also have a option to signup if user doesnt have account , the link should redirect to signup component created above.
@@ -41,11 +41,11 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
       The form should be beautifully styled with tailwind css classes, background should be white and not distinctive.
       At the top of login from , it should have a company Name called ENLYT. The component should be dark mode compatible.
    
-   step 3: using GithubGetFileContents tool, get the content of file data/headerNavLinks.ts from same branch,
-      then update the content of the file to use the newly created components above using GithubUpdateExistingFile.
+   step 4: Using GithubGetFileContents tool, get the content of file data/headerNavLinks.ts from same branch,
+      then update the content of the file to use the newly created components above Using GithubUpdateExistingFile.
       NOTE: While updating, you need to import just the component name as href not the whole path.
    
-   step 4: using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Login and signup Component" and body "Component for login and signup page is added".
+   step 5: Using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Login and signup Component" and body "Component for login and signup page is added".
 ```
 
 ### SAMPLE PROMPT - Azure DevOps Tools (Adding Login & Sign Up Page)
@@ -59,14 +59,14 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
    step 1: Using AzureDevopsBranchesCreateBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-   step 2: using AzureDevopsRepositoryCreateNewFile tool, Create a new file app/signup/page.tsx, the file should have a next js component with tailwind css used for a signup page. 
+   step 2: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file app/signup/page.tsx, the file should have a next js component with tailwind css used for a signup page. 
       It should have a image on left side and form on right side.
       The component should provide a signup form with necessary fields like email, username, password and sign up button.
       There should be a image of computer in left side of form. Use the image from /static/images/google.png with 500 widht and height.
       The form should be beautifully styled with tailwind css classes, background should be white and not distinctive.
       At the top of signup from , it should have a company Name called ENLYT. The component should be dark mode compatible.
 
-   step 3: using AzureDevopsRepositoryCreateNewFile tool, Create another new file app/login/page.tsx, the file should have a next js component with tailwind css used for a login page. 
+   step 3: Using AzureDevopsRepositoryCreateNewFile tool, Create another new file app/login/page.tsx, the file should have a next js component with tailwind css used for a login page. 
       It should have a image on left side and form on right side.
       The component should provide a login form with forget password option and login button.
       The component should also have a option to signup if user doesnt have account , the link should redirect to signup component created above.
@@ -74,12 +74,12 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
       The form should be beautifully styled with tailwind css classes, background should be white and not distinctive.
       At the top of login from , it should have a company Name called ENLYT. The component should be dark mode compatible.
    
-   step 4: using AzureDevopsRepositoryGetFile tool, get the content of file data/headerNavLinks.ts from same branch,
-   then update the content of the file to use the newly created component above using AzureDevopsRepositoryUpdateExistingFile.
+   step 4: Using AzureDevopsRepositoryGetFile tool, get the content of file data/headerNavLinks.ts from same branch,
+   then update the content of the file to use the newly created component above Using AzureDevopsRepositoryUpdateExistingFile.
    
-   step 5: using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Login Component".
+   step 5: Using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Login Component".
 
-   step 6: using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
+   step 6: Using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
 ```
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Adding Login & Sign Up Page)
@@ -93,14 +93,14 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
    step 1: Using BitBucketCreateNewBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-   step 2: using BitBucketWriteCode tool, Create a new file app/signup/page.tsx, the file should have a next js component with tailwind css used for a signup page. 
+   step 2: Using BitBucketWriteCode tool, Create a new file app/signup/page.tsx, the file should have a next js component with tailwind css used for a signup page. 
       It should have a image on left side and form on right side.
       The component should provide a signup form with necessary fields like email, username, password and sign up button.
       There should be a image of computer in left side of form. Use the image from /static/images/google.png with 500 widht and height.
       The form should be beautifully styled with tailwind css classes, background should be white and not distinctive.
       At the top of signup from , it should have a company Name called ENLYT. The component should be dark mode compatible.
 
-   step 3: using BitBucketWriteCode tool, Create another new file app/login/page.tsx, the file should have a next js component with tailwind css used for a login page. 
+   step 3: Using BitBucketWriteCode tool, Create another new file app/login/page.tsx, the file should have a next js component with tailwind css used for a login page. 
       It should have a image on left side and form on right side.
       The component should provide a login form with forget password option and login button.
       The component should also have a option to signup if user doesnt have account , the link should redirect to signup component created above.
@@ -108,10 +108,10 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
       The form should be beautifully styled with tailwind css classes, background should be white and not distinctive.
       At the top of login from , it should have a company Name called ENLYT. The component should be dark mode compatible.
    
-   step 4: using BitBucketGetFileContent tool, get the content of file data/headerNavLinks.ts from same branch,
-   then update the content of the file to use the newly created component above using BitBucketWriteCode.
+   step 4: Using BitBucketGetFileContent tool, get the content of file data/headerNavLinks.ts from same branch,
+   then update the content of the file to use the newly created component above Using BitBucketWriteCode.
    
-   step 5: using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "Added Login Component".
+   step 5: Using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "Added Login Component".
 
    step 6: Update this jira issue status to done.
 ```
@@ -130,7 +130,7 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
 ### Jira Issue and Bitbucket Repo
 ```
-   Get the issue with id <issue_id> from bitbucket repo and do as the description of the issue says.
+   Get the issue with id <issue_id> from jira and do as the description of the issue says.
 ```
 
 ## Confirming Successful Sample Outputs
