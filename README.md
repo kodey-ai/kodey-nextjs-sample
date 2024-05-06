@@ -17,6 +17,10 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
 ### SAMPLE PROMPT - Github Tools (Adding Login & Sign Up Page)
 ```
+   platform: github
+
+   repository-to-work-on: kodey-nextjs-sample
+
    branch name to create: feature/login-signup-component
 
    Information to agent: Do as the steps below are defined one by one. You are working in github repo so make sure to use tools related to github repo.
@@ -50,6 +54,10 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
 ### SAMPLE PROMPT - Azure DevOps Tools (Adding Login & Sign Up Page)
 ```
+   platform: azure
+
+   repository-to-work-on: kodey-nextjs-sample
+
    branch name to create: feature/login-component
 
    Information to agent: Do as the steps below are defined one by one. You are working in azure repo so make sure to use tools related to azure repo.
@@ -84,6 +92,10 @@ In this sample, we will explore how Kodey.ai can create react code for a nextjs 
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Adding Login & Sign Up Page)
 ```
+   platform: bitbucket
+
+   repository-to-work-on: kodey-nextjs-sample
+
    branch name to create: feature/login-component
 
    Information to agent: Do as the steps below are defined one by one. You are working in bitbucket repo so make sure to use tools related to azure repo.
